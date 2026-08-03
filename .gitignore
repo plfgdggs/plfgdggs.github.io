@@ -1,0 +1,19 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Generated build output and local scratch files
+dist/
+tmp/
+.audit/
+
+# Local environment files and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
